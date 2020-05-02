@@ -83,10 +83,10 @@ any given frame, considering efficient corner, contour and edge detection techni
 
 Following are the screenshots of the superimposed images of lena.jpeg on the AR Tag. It can be seen that the superimposed  image  maintains  its  orientation,  thus compensating for the rotation of the camera.
 
-<img src="images/lena1.png" width="48">
-![Orientation 1](images/lena1.png) <!-- .element height="100" width="100" -->
-![Orientation 2](images/lena2.png)
-![Orientation 3](images/lena3.png)
+<img src="images/lena1.png" width="256">
+<img src="images/lena2.png" width="256">
+<img src="images/lena3.png" width="256">
+
 
 
 ## Placing virtual 3D Cube on AR tag
@@ -110,8 +110,9 @@ the transformation of all the corners of the cube onto the image plane using the
 
 ### Output Images of 3D Cube Superimposed on AR Tag:
 
-![Superimposed 3D cube on 2D image1](images/cube1.png)
-![Superimposed 3D cube on 2D image2](images/cube2.png)
-![Superimposed 3D cube on 2D image3](images/cube3.png)
+<img src="images/cube1.png" width="256">
+<img src="images/cube2.png" width="256">
+<img src="images/cube3.png" width="256">
+
 
 
