@@ -13,6 +13,7 @@ processing operations based on the tag’s orientation and position (a.k.a. the 
 Before implementing image processing on the image sequence, the video is split into its image frames using `cv2.VideoCapture`, and once the operations are performed on each of the frames, it is appended into an array. This image array is then used to get the video using `cv2.VideoWriter`.
 
 Following is the reference AR Tag that has to be detected and tracked:
+
 ![Reference AR Tag to be detected and tracked](images/ref_marker.png)
 
 
@@ -31,6 +32,7 @@ bit to most significant.  So, the top-left square is the least significant bit, 
 the most significant bit.
 
 Following image shows the grid overlayed on the reference marker tag.
+
 ![Grid on tag](images/ref_marker_grid.png)
 
 
@@ -81,7 +83,7 @@ any given frame, considering efficient corner, contour and edge detection techni
 
 Following are the screenshots of the superimposed images of lena.jpeg on the AR Tag. It can be seen that the superimposed  image  maintains  its  orientation,  thus compensating for the rotation of the camera.
 
-![Orientation 1](images/lena1.png)
+![Orientation 1](images/lena1.png | width=100)
 ![Orientation 2](images/lena2.png)
 ![Orientation 3](images/lena3.png)
 
