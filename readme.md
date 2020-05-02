@@ -64,7 +64,7 @@ as its ID with respect to its original orientation i.e compensated for any camer
 
 Homographic transformation is the transformation between two planes in projective space. In augmented reality, it is the transformation that projects a square marker board from the world coordinate system into a polygon in the image plane on the camera sensor (i.e., pixel coordinates).  In this project, once the 4 corners of the tag are detected with the edge and corner detection done above, homography estimation is performed, such as superimposing the image (Example: lena.jpeg) over the tag. 
 
-![lena.jpg image used as template](images/lena.jpeg)
+<img src="images/lena.jpeg" width="256">
 
 The following steps has been successfully implemented in this part of the project:
 * Homography between the corners of the template and the four corners of the tag has been computed
@@ -83,9 +83,9 @@ any given frame, considering efficient corner, contour and edge detection techni
 
 Following are the screenshots of the superimposed images of lena.jpeg on the AR Tag. It can be seen that the superimposed  image  maintains  its  orientation,  thus compensating for the rotation of the camera.
 
-<img src="images/lena1.png" width="512">
-<img src="images/lena2.png" width="512">
-<img src="images/lena3.png" width="512">
+<img src="images/lena1.png" width="800">
+<img src="images/lena2.png" width="800">
+<img src="images/lena3.png" width="800">
 
 
 
@@ -110,9 +110,9 @@ the transformation of all the corners of the cube onto the image plane using the
 
 ### Output Images of 3D Cube Superimposed on AR Tag:
 
-<img src="images/cube1.png" width="512">
-<img src="images/cube2.png" width="512">
-<img src="images/cube3.png" width="512">
+<img src="images/cube1.png" width="800">
+<img src="images/cube2.png" width="800">
+<img src="images/cube3.png" width="800">
 
 
 
