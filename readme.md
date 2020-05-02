@@ -83,7 +83,8 @@ any given frame, considering efficient corner, contour and edge detection techni
 
 Following are the screenshots of the superimposed images of lena.jpeg on the AR Tag. It can be seen that the superimposed  image  maintains  its  orientation,  thus compensating for the rotation of the camera.
 
-![Orientation 1](images/lena1.png)<!-- .element height="50%" width="50%" -->
+<img src="images/lena1.png" width="48">
+![Orientation 1](images/lena1.png) <!-- .element height="100" width="100" -->
 ![Orientation 2](images/lena2.png)
 ![Orientation 3](images/lena3.png)
 
